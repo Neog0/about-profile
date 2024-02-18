@@ -28,7 +28,7 @@ body {
 
   width: 20em;
 
-  background-color: rgba(241, 241, 241, 1);
+  background-color: rgba(246, 246, 246, 1);
 
   overflow: hidden;
 
@@ -41,9 +41,25 @@ body {
   font-size: 1em;
 }
 
+.container2 {
+  width: 20em;
+
+  background-color: rgba(72, 198, 222, 1);
+
+  overflow: hidden;
+
+  border-radius: 0em;
+
+  text-align: center;
+
+  font-family: 'Open Sans Condensed', sans-serif;
+
+  font-size: 1em;
+}
+
 .image {
   padding: 3em 0;
-  background-image: rgba(73, 63, 168, 1);
+  background-image: rgba(100, 88, 207, 1);
 }
 
 .image img {
@@ -61,7 +77,9 @@ body {
 }
 
 .head {
-  font-size: 2.2em;
+  font-size: 1.2em;
+  color: saddlebrown;
+  text-transform: uppercase;
 }
 
 .paragraph {
@@ -84,5 +102,11 @@ body {
   color: #981231;
 }
 
-
+.card {
+  color: saddlebrown#171515;
+  display: flex;
+  justify-content: center;
+  padding: 0.3em;
+  
+}
 
